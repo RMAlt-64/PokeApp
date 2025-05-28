@@ -1,0 +1,131 @@
+body{
+    background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%)
+}
+.imgLogo{
+    width: 220px;
+    height: 100px;
+}
+.imgLogo:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;  
+    /* background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+    
+    
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h1{
+    color: rgb(250, 234, 5);
+    ffont-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding: 20px;
+    
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(74, 178, 192);
+    border-radius: 10px;
+    box-shadow: 0 4px 9px rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 10px;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+.cardTitle{
+    font-size: 20px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pokemon-tipos{
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+}
+.pokemon-stats{
+    font-family: cursive;
+    font-size: 14px;
+}
+
+
+.pokemon-todos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input-search{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeApp</title>
+    <link rel="icon" type="image/ico" href="./img/logoPagina.png">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Krona+One&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img class="imgLogo" src="./img/pokeapi_logo.png" alt="">
+        <h1>Welcome to PokeApp</h1>
+        <nav>
+            <ul class="nav">    
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pokedex.html">Pokedex</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="container-search">
+                <input class="input-search" type="text" id="search" placeholder="Search Pokémon by name, ID or tipo"> 
+                <button class="button" id="btnSearch" onclick= 'filtrarPokemon()'>Buscar</button>
+            </div>
+            <div class="container-btn">
+                <button class="button" id="btnRandom">Random Pokémon</button>
+                <button class="button" id="btnAll">Todos los Pokémon</button>
+            </div>
+        </div>
+        <div class="todos">
+            <div class="pokemon-todos" id="listaPokemon">
+                <!-- Aquí se mostrarán los Pokémon -->
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
